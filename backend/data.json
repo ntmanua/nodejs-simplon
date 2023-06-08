@@ -1,44 +1,47 @@
 [
     {
         "id": 1,
-        "image": "",
+        "image": "img/dune_deuxieme_partie.webp",
         "nom": "Dune - Deuxième Partie",
-        "description": "",
-        "genre": "",
-        "date": ""
+        "director": "Denis Villeneuve",
+        "description": "Cette suite de Dune explorera le périple mythique de Paul Atreides alors qu’il s’unit avec Chani et les Fremen tout en préparant sa revanche contre les conspirateurs qui ont détruit sa famille. Devant choisir entre l’amour de sa vie et le destin de l’univers connu, il s’efforce d’empêcher un terrible futur que lui seul peut prédire.",
+        "genre": "Science-fiction, Drame",
+        "date": "1 novembre 2023 (France)"
     },
     {
         "id": 2,
-        "nom": "Plaquettes de frein (x4)",
-        "prix": 40,
-        "categorie": "Freinage",
-        "image": "images/plaquettes-frein.png",
-        "description": "Une qualité de freinage optimale, par tous les temps.",
-        "disponibilite": true
+        "image": "img/oppenheimer.webp",
+        "nom": "Oppenheimer",
+        "director": "Christopher Nolan",
+        "description": "Biopic sur J. Robert Oppenheimer, le \"père de la bombe atomique\" pendant la Seconde Guerre mondiale.",
+        "genre": "Biopic, Drame, Historique",
+        "date": "19 juillet 2023 (France)"
     },
     {
         "id": 3,
-        "nom": "Ampoule boîte à gants",
-        "prix": 5.49,
-        "categorie": "Optiques",
-        "image": "images/ampoule-boite-a-gants.png",
-        "description": "Pour y voir clair dans l’habitacle.",
-        "disponibilite": false
+        "image": "img/babylon.webp",
+        "nom": "Babylon",
+        "director": "Damien Chazelle",
+        "description": "Los Angeles des années 1920. Récit d'une ambition démesurée et d'excès les plus fous, l'ascension et la chute de différents personnages lors de la création d'Hollywood, une ère de décadence et de dépravation sans limites.",
+        "genre": "Comédie dramatique, Historique",
+        "date": "18 janvier 2023 (France)"
     },
     {
         "id": 4,
-        "nom": "Liquide de frein",
-        "prix": 9.60,
-        "categorie": "Freinage",
-        "image": "images/liquide-frein.png",
-        "disponibilite": true
+        "image": "img/killers_of_the_flower_moon.webp",
+        "nom": "Killers of the Flower Moon",
+        "director": "Martin Scrosese",
+        "description": "Au début du XXème siècle, le pétrole a apporté la fortune au peuple Osage qui, du jour au lendemain, est devenu l’un des plus riches du monde. La richesse de ces Amérindiens attire aussitôt la convoitise de Blancs peu recommandables qui intriguent, soutirent et volent autant d’argent Osage que possible avant de recourir au meurtre…",
+        "genre": "Drame, Policier, Thriller, Western, Historique",
+        "date": "18 octobre 2023 (France)"
     },
     {
         "id": 5,
-        "nom": "Balai d'essuie-glace",
-        "prix": 29.10,
-        "image": "images/balai-essuie-glace.png",
-        "description": "Performances d’essuyage au top ! Longueur : 550 mm.",
-        "disponibilite": true
+        "image": "img/spider_man_across_the_spider_verse.webp",
+        "nom": "Spiderman: Accros the -Verse",
+        "director": "Joaquim Dos Santos, Kemp Powers and Justin K.Thompson",
+        "description": "Après avoir retrouvé Gwen Stacy, Spider-Man, le sympathique héros originaire de Brooklyn, est catapulté à travers le Multivers, où il rencontre une équipe de Spider-Héros chargée d’en protéger l’existence. Mais lorsque les héros s’opposent sur la façon de gérer une nouvelle menace, Miles se retrouve confronté à eux et doit redéfinir ce que signifie être un héros afin de sauver les personnes qu'il aime le plus.",
+        "genre": "Action, Aventure, Science-fiction, Animation",
+        "date": "31 mai 2023 (France)"
     }
 ]
