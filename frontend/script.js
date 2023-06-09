@@ -9,11 +9,12 @@ async function fetchData() {
 }
 
 function genererAffiche(data) {
-  const sectionAffiche = document.querySelector('.tableau');
   let i = 1;
   data.forEach((affiche) => {
-    const affiche = document.querySelector(`.affiche${i}`);
+    let sectionAffiche = document.querySelector(`.affiche${i}`);
     i++;
+    const sectionText = document.createElement('div');
+    sectionText.classList.add('text');
     const imageAffiche = document.createElement('img');
     imageAffiche.src = affiche.image;
     const titreAffiche = document.createElement('h2');
@@ -25,11 +26,13 @@ function genererAffiche(data) {
     const dateAffiche = document.createElement('p');
     dateAffiche.innerText = affiche.date;
 
-    affiche.appendChild(imageAffiche);
-    affiche.appendChild(titreAffiche);
-    affiche.appendChild(descriptionAffiche);
-    affiche.appendChild(genreAffiche);
-    affiche.appendChild(dateAffiche);
+
+    sectionAffiche.appendChild(imageAffiche);
+    sectionAffiche.appendChild(sectionText);
+    sectionText.appendChild(titreAffiche);
+    sectionText.appendChild(descriptionAffiche);
+    sectionText.appendChild(genreAffiche);
+    sectionText.appendChild(dateAffiche);
   });
 }
 

@@ -58,6 +58,18 @@ button:hover{
     cursor: pointer;
 }
 .tableau{
-    width: 25%;
+    margin-top: 20px;
+}
+
+.cadre{
+    width: 70%;
     margin: auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.text{
+    width: 300px;
 }
