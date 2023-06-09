@@ -1,3 +1,4 @@
+//To fetch data in /api/stuff
 async function fetchData() {
   try {
     const response = await fetch("http://localhost:3000/api/stuff");
@@ -8,6 +9,7 @@ async function fetchData() {
   }
 }
 
+//To displaying data in the DOM
 function genererAffiche(data) {
   let i = 1;
   data.forEach((affiche) => {
@@ -38,14 +40,14 @@ function genererAffiche(data) {
   });
 }
 
+//Promises for fetching data and call the function genererAffiche
+
 fetchData()
   .then((data) => {
     genererAffiche(data);
-  })
-  .catch((error) => {
-    console.error(error);
   });
-
+  
+//To hide poster
 function cacherSection() {
   for (let i = 1; i <= 5; i++) {
     let affiche = document.querySelector(`.affiche${i}`);
@@ -53,22 +55,25 @@ function cacherSection() {
   }
 }
 
-
+//Use to anime color btn
 function cacherCouleur() {
   for (let i = 1; i <= 5; i++) {
       document.querySelector(`#btn-${i}`).classList.remove("active");
     }
 }
+
 const btn1 = document.querySelector("#btn-1");
 const btn2 = document.querySelector("#btn-2");
 const btn3 = document.querySelector("#btn-3");
 const btn4 = document.querySelector("#btn-4");
 const btn5 = document.querySelector("#btn-5");
 
+//Initial state
 cacherSection();
 btn1.classList.add("active");
 document.querySelector(".affiche1").style.display = "flex";
 
+//Event management
 btn1.addEventListener("click", () => {
   cacherSection();
   cacherCouleur();

@@ -78,8 +78,9 @@ button:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:5px;   
+    gap:5px;
 }
+
 
 .text{
     width: 300px;
