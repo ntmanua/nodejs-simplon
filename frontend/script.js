@@ -19,6 +19,8 @@ function genererAffiche(data) {
     imageAffiche.src = affiche.image;
     const titreAffiche = document.createElement("h2");
     titreAffiche.innerText = affiche.nom;
+    const realisateurAffiche = document.createElement("p");
+    realisateurAffiche.innerText = affiche.director;
     const descriptionAffiche = document.createElement("p");
     descriptionAffiche.innerText = affiche.description;
     const genreAffiche = document.createElement("p");
@@ -29,6 +31,7 @@ function genererAffiche(data) {
     sectionAffiche.appendChild(imageAffiche);
     sectionAffiche.appendChild(sectionText);
     sectionText.appendChild(titreAffiche);
+    sectionText.appendChild(realisateurAffiche);
     sectionText.appendChild(genreAffiche);
     sectionText.appendChild(dateAffiche);
     sectionText.appendChild(descriptionAffiche);
